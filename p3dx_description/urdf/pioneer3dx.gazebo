@@ -94,12 +94,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	<gazebo reference="lms100">
 		<sensor type="ray" name="head_hokuyo_sensor">
 			<pose>0 0 0 0 0 0</pose>
-			<visualize>true</visualize>
+			<visualize>false</visualize>
 			<update_rate>50</update_rate>
 			<ray>
 				<scan>
 					<horizontal>
-						<samples>727</samples>
+						<samples>180</samples>
+						<!--<samples>727</samples>-->
 						<resolution>1</resolution>
 						<min_angle>-2.0944</min_angle>
 						<max_angle>2.0944</max_angle>
