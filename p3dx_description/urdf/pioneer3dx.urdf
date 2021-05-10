@@ -483,7 +483,7 @@ work original in ucs-ros-pkg.
   </link>
   <joint name="lms100_joint" type="fixed">
     <axis xyz="0 1 0"/>
-    <origin rpy="0 0 0" xyz="0.12 0 0.26"/>
+    <origin rpy="0 0 0" xyz="0.15 0 0.08"/>
     <parent link="base_link"/>
     <child link="lms100"/>
   </joint>
